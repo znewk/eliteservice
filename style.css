@@ -1,0 +1,1257 @@
+@font-face {
+    font-family: 'DIN 2014 Light Italic';
+    src: url('fonts/din2014/DIN2014-LightItalic.eot');
+    src: local('fonts/din2014/DIN 2014 Light Italic'), local('DIN2014-LightItalic'),
+        url('fonts/din2014/DIN2014-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/din2014/DIN2014-LightItalic.woff') format('woff'),
+        url('fonts/din2014/DIN2014-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DIN 2014 Light';
+    src: url('fonts/din2014/DIN2014-Light.eot');
+    src: local('fonts/din2014/DIN 2014 Light'), local('DIN2014-Light'),
+        url('fonts/din2014/DIN2014-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/din2014/DIN2014-Light.woff') format('woff'),
+        url('fonts/din2014/DIN2014-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN 2014 Extra Bold Italic';
+    src: url('fonts/din2014/DIN2014-ExtraBoldItalic.eot');
+    src: local('fonts/din2014/DIN 2014 ExtraBold Italic'), local('DIN2014-ExtraBoldItalic'),
+        url('fonts/din2014/DIN2014-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/din2014/DIN2014-ExtraBoldItalic.woff') format('woff'),
+        url('fonts/din2014/DIN2014-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DIN 2014 Extra Light';
+    src: url('fonts/din2014/DIN2014-ExtraLight.eot');
+    src: local('fonts/din2014/DIN 2014 ExtraLight'), local('DIN2014-ExtraLight'),
+        url('fonts/din2014/DIN2014-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/din2014/DIN2014-ExtraLight.woff') format('woff'),
+        url('fonts/din2014/DIN2014-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN 2014 Extra Bold';
+    src: url('fonts/din2014/DIN2014-ExtraBold.eot');
+    src: local('fonts/din2014/DIN 2014 ExtraBold'), local('DIN2014-ExtraBold'),
+        url('fonts/din2014/DIN2014-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/din2014/DIN2014-ExtraBold.woff') format('woff'),
+        url('fonts/din2014/DIN2014-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN 2014 Extra Light Italic';
+    src: url('fonts/din2014/DIN2014-ExtraLightItalic.eot');
+    src: local('fonts/din2014/DIN 2014 ExtraLight Italic'), local('DIN2014-ExtraLightItalic'),
+        url('fonts/din2014/DIN2014-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/din2014/DIN2014-ExtraLightItalic.woff') format('woff'),
+        url('fonts/din2014/DIN2014-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DIN 2014 Regular';
+    src: url('fonts/din2014/DIN2014-Regular.eot');
+    src: local('fonts/din2014/DIN 2014 Regular'), local('DIN2014-Regular'),
+        url('fonts/din2014/DIN2014-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/din2014/DIN2014-Regular.woff') format('woff'),
+        url('fonts/din2014/DIN2014-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN 2014 Italic';
+    src: url('fonts/din2014/DIN2014-Italic.eot');
+    src: local('fonts/din2014/DIN 2014 Italic'), local('DIN2014-Italic'),
+        url('fonts/din2014/DIN2014-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/din2014/DIN2014-Italic.woff') format('woff'),
+        url('fonts/din2014/DIN2014-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DIN 2014 Bold';
+    src: url('fonts/din2014/DIN2014-Bold.eot');
+    src: local('fonts/din2014/DIN 2014 Bold'), local('DIN2014-Bold'),
+        url('fonts/din2014/DIN2014-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/din2014/DIN2014-Bold.woff') format('woff'),
+        url('fonts/din2014/DIN2014-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN 2014 Bold Italic';
+    src: url('fonts/din2014/DIN2014-BoldItalic.eot');
+    src: local('fonts/din2014/DIN 2014 Bold Italic'), local('DIN2014-BoldItalic'),
+        url('fonts/din2014/DIN2014-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/din2014/DIN2014-BoldItalic.woff') format('woff'),
+        url('fonts/din2014/DIN2014-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DIN 2014 Demi Bold Italic';
+    src: url('fonts/din2014/DIN2014-DemiBoldItalic.eot');
+    src: local('fonts/din2014/DIN 2014 DemiBold Italic'), local('DIN2014-DemiBoldItalic'),
+        url('fonts/din2014/DIN2014-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/din2014/DIN2014-DemiBoldItalic.woff') format('woff'),
+        url('fonts/din2014/DIN2014-DemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DIN 2014 Demi Bold';
+    src: url('fonts/din2014/DIN2014-DemiBold.eot');
+    src: local('fonts/din2014/DIN 2014 DemiBold'), local('DIN2014-DemiBold'),
+        url('fonts/din2014/DIN2014-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/din2014/DIN2014-DemiBold.woff') format('woff'),
+        url('fonts/din2014/DIN2014-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    font-family: 'DIN 2014 Regular';
+    margin: 0;
+}
+
+input:focus, select:focus{
+    outline: none;
+}
+
+.header {
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.topHeader{
+    width: 100%;
+    padding: 5px 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topHeaderSearchBody{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.topHeaderSearchInput{
+    width: 100%;
+    background: #F1F1F1;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+}
+.topHeaderSearchImg{
+    position: absolute;
+    right: 15px;
+    height: 18px;
+}
+.topHeaderAside{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.topHeaderTitleBody{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.topHeaderTitleImg{
+    margin-right: 5px;
+}
+
+.bottomHeader{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottomHeadernavBar{
+    width: 80%;
+}
+.bottomHeaderMenu{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    text-transform: uppercase;
+}
+.bottomHeaderMenuItem{
+    padding: 5px 25px;
+    position: relative;
+    cursor: pointer;
+    font-weight: 600;
+}
+.bottomHeaderMenuItem:hover .bottomHeaderSubItemList {
+    display: block;
+}
+.bottomHeaderSubItemList:hover {
+    display: block;
+}
+.bottomHeaderSubItemList{
+    display: none;
+    text-align: left;
+    list-style: none;
+    position: absolute;
+    left: -40px;
+}
+.bottomHeaderSubItem{
+    padding: 10px 25px;
+    transition: 0.3s;
+    background-color: white;
+}
+.bottomHeaderSubItem:hover{
+    background: #d8d8d8;
+}
+.introBlock{
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    background-image: url(images/bg_intro.png);
+    background-position: center;
+    background-size: cover;
+    height: 88vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.introBlockInfo{
+    width: 50%;
+    color: white;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.introBlockTitle{
+    font-size: 48px;
+    margin: 0;
+}
+.introBlockSubtitle{
+    font-size: 42px;
+    margin: 0;
+}
+.introBlockText{
+    font-size: 24px;
+    font-weight: 400;
+    width: 600px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.introBlockImages{
+    width: 50%;
+    position: relative;
+}
+.introBlockMainImg{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 80%;
+}
+.intoBlockKeyImg{
+    position: absolute;
+    bottom: 10%;
+    right: 13%;
+    z-index: 1;
+}
+.intoBlockKey2Img{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    z-index: 1;
+}
+.intoBlockSettsImg{
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    z-index: 1;
+}
+
+.callMasterForm{
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px 5%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: relative;
+    top: -50px;
+}
+.callMasterFormTitleBlock{
+    width: 100%;
+}
+.callMasterFormTitle{
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.callMasterFormSubtitle{
+    color: #8C8989;
+}
+.callMasterFormBody{
+    padding: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.callMasterFormInput{
+    padding: 25px 30px;
+    border: none;
+    border-radius: 10px;
+    width: 24%;
+    background: #F4F3F3;  
+    font-size: 18px;  
+    font-family: 'DIN 2014 Regular';
+}
+.callMasterFormBtn{
+    padding: 25px 30px;
+    border: none;
+    border-radius: 10px;
+    width: 24%;
+    background: #20446E;
+    cursor: pointer;
+    color: white;
+}
+
+.ourAdvantagesBlock{
+    padding: 0 5%;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+}
+.ourAdvantagesTop{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.ourAdvantagesTitle{
+    font-size: 42px;
+    margin: 0;
+}
+.ourAdvantagesHr{
+    width: 50px;
+    height: 2px;
+    background: black;
+    margin: 25px 0;
+}
+.ourAdvantagesSubtitle{
+    margin: 0;
+    color: #777777;
+    font-weight: 400;
+}
+.ourAdvantagesBottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.ourAdvantage{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.ourAdvantageImg{
+    height: 64px;
+    width: 64px;
+}
+.ourAdvantageTitle{
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.ourAdvantageSubtitle{
+    color: #717981;
+}
+.ourServicesWrapper{
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ourServicesCard{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px
+}
+.ourServicesCardTop{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.ourServicesCardBtn{
+    position: absolute;
+    border: none;
+    background-color: #20446E;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.ourServicesCardImageBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #20446e37;
+    border-radius: 50%;
+    padding: 20px;
+}
+.ourServicesCardBottom{
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ourServicesCardHr{
+    height: 2px;
+    width: 30px;
+    background-color: #20446E;
+   
+}
+
+.applicationBlock {
+    width: 90%;
+    padding: 50px 5%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-image: url(images/aplication_back.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.applicationForm{
+    width: 50%;
+    color: white;
+}
+.applicationFormTitle{
+    font-size: 48px;
+    margin: 0;
+}
+.applicationFormSubtitle{
+    font-size: 24px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.70);
+}
+.applicationBlockInputs{
+    width: 100%;
+    display: flex;
+}
+.applicationInput{
+    font-family: 'DIN 2014 Regular';
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 10px 0;
+    background-color: transparent;
+    margin-right: 15px;
+    width: 30%;
+    font-size: 18px;
+}
+.applicationInput::placeholder{
+    color: white;
+}
+
+.applicationBtn{
+    width: 30%;
+    background-color: white;
+    padding: 20px 30px;
+    color: #20446E;
+    font-family: 'DIN 2014 Bold';
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+.applicationBlockBtnBody{
+    display: flex;
+    align-items: center;
+}
+.applicationBlockArrow{
+    transform: rotate(-15deg);
+}
+.applicationBlockPostScriptum{
+    font-size: 18px;
+    margin-top: 80px;
+}
+.applicationImages{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.applicationImagesIcon1{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.applicationImagesIcon2{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+.applicationImagesIcon3{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+.applicationImagesMen{
+    height: 100%;
+}
+.feedbacksBlock{
+    padding: 0 5%;
+}
+.feedbacks{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.feedbacksArea{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.feedback{
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 75px;
+}
+.feedbackHeader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.feedbackImage{
+    margin-right: 15px;
+}
+.feedbackAuthorName{
+    font-weight: 600;
+    font-size: 24px;
+}
+.feedbackDate {
+    color: #666666;
+}
+.feedbackSubtitle {
+    color: #777777;
+    font-size: 22px;
+}
+.feedbackFooter{
+    width: 100%;
+    margin-top: 25px;
+}
+.feedbacksLinkBody{
+    width: 19%;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: #20446E;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+
+    -webkit-box-shadow: -56px 0px 24px 3px rgba(255, 255, 255, 1);
+    -moz-box-shadow: -56px 0px 24px 3px rgba(255, 255, 255, 1);
+    box-shadow: -56px 0px 24px 3px rgba(255, 255, 255, 1);
+}
+.feedbacksLinkITitle{
+    margin-top: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+}
+.workProcessBlock{
+    padding: 0 5%;   
+}
+.workProcesses{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.workProcessCard{
+    width: 22%;
+}
+.workProcessCardImage{
+    width: 100%;
+}
+.workProcessCardText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.workProcessCardNum{
+    color: white;
+    background-color: #20446E;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.workProcessCardTitle{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+.workProcessCardSubtitle{
+    color: #717981;
+}
+.stocksBlock{
+    padding: 0 5%;
+}
+.stocksSlider{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stockCard{
+    width: 49%;
+    background-image: url(images/stock1.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    border-radius: 15px;
+}
+.stockCardBody{
+    width: 100%;
+    height: 100%;
+    background: #17365abc;
+    border-radius: 15px;
+    padding: 30px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.stockTitle{
+    padding: 15px 20px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+}
+.stockValue{
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+}
+.stockSubtitle{
+    display: block;
+    margin-top: 15px;
+    color: white;
+}
+.whyUsBlock{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    position: relative;
+}
+.whyUsInfo{
+    width: 55%;
+}
+.whyUsTitle{
+    font-size: 48px;
+}
+.whyUsSubtitle{
+    color: #777777;
+    font-size: 24px;
+}
+.whyUsImage{
+    width: 45%;
+}
+.whyUsCards{
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.whyUsCircle{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: 1px solid #20446E;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+
+}
+.whyUsCircle2{
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #20446E;
+}
+.whyUsCard{
+    width: 30%;
+}
+.whyUsCardTitle{
+    display: block;
+    margin: 15px 0;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.whyUsCardSubtitle{
+    font-size: 18px;
+    color: #717981;
+}
+.partnersBlock{
+    padding: 0 5%;
+}
+.slideContainer{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.sliderTitle{
+    padding-bottom: 0;
+}
+.slideContent{
+    width: 80%;
+    overflow: hidden;
+}
+.contactsBlock{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.contacts{
+    width: 25%;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid #DADADA;
+    border-radius: 20px;
+}
+.ymBody{
+    width: 74%;
+    border-radius: 20px;
+}
+.contactsItem{
+    width: 100%;
+}
+.contactsItemTitle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.contactsItemIcon{
+    width: 16px;
+    margin-right: 10px;
+}
+.contactsItemTitle{
+    color: #989898;
+}
+.contactsItemFooter{
+    margin: 10px 0;
+    padding-left: 26px;
+    color: black;
+    font-size: 18px;
+}
+.contactsHr {
+    height: 1px;
+    background-color: #DADADA;
+    width: 95%;
+    margin: 20px auto;
+}
+.contactsItemLink{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer{
+    padding: 30px 5%;
+    padding-top: 50px;
+    background-color: #222222;
+}
+.footerFlex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footerLeftSide{
+    width: 50%;
+}
+.footerTitle{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.footerLeftSideWrapper{
+    display: flex;
+    height: 125px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.footerSubLink{
+    text-decoration: none;
+    color: #BCBCBC;
+    margin-bottom: 3px;
+}
+.footerRightSide{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.footerRightSideList{
+    display: flex;
+    flex-direction: column;
+}
+.footerLink{
+    color: white;
+}
+.footerRightSideItem{
+    margin-bottom: 20px;
+}
+
+.footerHr {
+    width: 100%;
+    height: 1px;
+    background: #282828;
+    margin: 20px 0;
+}
+.whyUsTitle{
+    text-align: left;
+}
+.burgerIcon{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1367px){
+    .bottomHeaderMenuItem{
+        font-size: 14px;
+    }
+    .topHeaderTitle{
+        font-size: 14px;
+    }
+    .introBlockTitle{
+        font-size: 32px;
+    }
+    .introBlockSubtitle{
+        font-size: 28px;
+    }
+    .introBlockText{
+        font-size: 16px;
+    }
+    .callMasterFormTitle{
+        font-size: 20px;
+    }
+    .callMasterFormSubtitle{
+        font-size: 16px;
+    }
+    .callMasterFormInput{
+        font-size: 14px;
+    }
+    .callMasterFormBtn{
+        font-size: 12px;
+    }
+    .ourAdvantagesTitle{
+        font-size: 22px;
+    }
+    .ourAdvantagesSubtitle{
+        font-size: 16px;
+    }
+    .ourServicesCardTitle{
+        font-size: 16px;
+    }
+    .applicationFormTitle{
+        font-size: 36px;
+    }
+    .applicationFormSubtitle{
+        font-size: 18px;
+    }
+    .applicationInput{
+        font-size: 16px;
+    }
+    .applicationBtn, .footerSubLink{
+        font-size: 12px;
+    }
+    .applicationImagesMen{
+        height: 90%;
+    }
+    .applicationBlockPostScriptum{
+        font-size: 14px;
+    }
+    .feedbackAuthorName, .feedbackDate, .contactsItemTitle{
+        font-size: 18px;
+    }
+    .feedbackSubtitle, .feedbacksLinkITitle, .whyUsCardSubtitle, .contactsItemFooter, .footerTitle{
+        font-size: 14px;
+    }
+    .workProcessCardTitle{
+        font-size: 18px;
+    }
+    .workProcessCardSubtitle, .whyUsSubtitle, .whyUsCardTitle{
+        font-size: 16px;
+    }
+    .card img {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    
+}
+
+@media screen and (max-width: 767px){
+    .header, .introBlockImages, .contactsBlock, .ourServicesBlock, .ourAdvantagesBlock, .feedbacksBlock, .workProcessBlock, .partnersBlock,.applicationImages, .footer{
+        display: none;
+    }
+    .introBlock{
+        flex-direction: column;
+        padding: 10% 0;
+    }
+    .introBlockMainImg{
+        width: 300px;
+        height: 300px;
+        bottom: 0;
+    }
+    .introBlockInfo{
+        width: 100%;
+        padding: 0 5%;
+        box-sizing: border-box;
+        margin-top: 50%;
+    }
+    .introBlockImages{
+        display: block;
+        width: 100%;
+    }
+    .introBlockTitle{
+        font-size: 24px;
+    }
+    .introBlockSubtitle{
+        font-size: 18px;
+    }
+    .introBlockText{
+        font-size: 16px;
+        width: auto;
+    }
+    .intoBlockKeyImg{
+        right: auto;
+        right: 10px;
+        bottom: 50px;
+    }
+    .intoBlockKey2Img{
+        top: -200px;
+        left: 10px;
+    }
+    .intoBlockSettsImg{
+        right: 50px;
+        top: -300px;
+    }
+    .callMasterFormBody{
+        flex-direction: column;
+    }
+    .callMasterFormInput{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .callMasterFormInputMobile{
+        width: 80%;
+    }
+    .callMasterFormBtn{
+        width: 100%;
+    }
+    .applicationForm{
+        width: 100%;
+    }
+    .applicationFormTitle{
+        font-size: 32px;
+    }
+    .applicationFormSubtitle{
+        font-size: 22px;
+    }
+    .applicationBlockInputs{
+        width: 100%;
+    }
+    .applicationInput{
+        width: 50%;
+    }
+    .applicationBlockBtnBody{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .applicationBtn{
+        width: 100%;
+        margin: 0;
+        margin-top: 100px;
+    }
+    .applicationBlockArrow{
+        transform: rotate(20deg);
+    }
+    .applicationBlockPostScriptum{
+        margin-top: 50px;
+    }
+    .ourAdvantagesTitle{
+        text-align: center;
+        font-size: 32px;
+    }
+    .whyUsBlock{
+        flex-direction: column;
+    }
+    .whyUsInfo{
+        width: 100%;
+    }
+    .whyUsImage{
+        display: none;
+    }
+    .whyUsCards{
+        position: static;
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+    }
+    .whyUsTitle{
+        text-align: left;
+    }
+    .whyUsCircle{
+        display: none;
+    }
+    .whyUsCard{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .ourAdvantagesBlock{
+        display: block;
+    }
+    .ourAdvantagesBottom{
+        flex-wrap: wrap;
+    }
+    .ourAdvantage{
+        width: 49%;
+        margin-bottom: 30px;
+    }
+    .ourServicesBlock{
+        display: block;
+    }
+    .ourServicesCard{
+        width: 30%;
+        
+    }
+    .ourServicesWrapper{
+        align-items: flex-start;
+    }
+    .ourServicesCardImage{
+        height: 80px;
+        width: 80px;
+        box-sizing: border-box;
+    }
+    .ourServicesCardTitle{
+        font-size: 16px;
+    }
+    .ourServicesCardBtn{
+        height: 24px;
+        width: 24px;
+    }
+    .feedbacksBlock{
+        display: block;
+    }
+    .feedbacksArea{
+        flex-direction: column;
+    }
+    .feedback{
+        width: 100%;
+    }
+    .feedbacksLinkBody{
+        width: 100%;
+        height: 200px;
+        top: auto;
+        right: 0;
+        bottom: 0;
+        -webkit-box-shadow: 0px -48px 28px 11px rgba(255, 255, 255, 1);
+        -moz-box-shadow: 0px -48px 28px 11px rgba(255, 255, 255, 1);
+        box-shadow: 0px -48px 28px 11px rgba(255, 255, 255, 1);
+    }
+    .workProcessBlock{
+        display: block;
+    }
+    .workProcesses{
+        flex-wrap: wrap;
+    }
+    .workProcessCard{
+        width: 49%;
+    }
+    .workProcessCardTitle{
+        font-size: 22px;
+    }
+    .workProcessCardSubtitle{
+        font-size: 16px;
+    }
+    .partnersBlock{
+        display: block;
+    }
+    .slideContent{
+        width: 80%;
+    }
+    .swiper-button-prev, .swiper-button-next{
+        display: none;
+    }
+    .contactsBlock{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts{
+        width: 100%;
+    }
+    .ymBody{
+        width: 100%;
+    }
+    .footer{
+        display: block;
+    }
+    .footerFlex{
+    }
+    .footerLeftSide{
+        width: 100%;
+    }
+    .footerLeftSideWrapper{
+        flex-wrap: nowrap;
+        height: auto;
+    }
+    .footerRightSide{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        display: block;
+    }
+    .topHeader{
+        flex-wrap: wrap;
+    }
+    .topHeaderSearchBody{
+        width: 100%;
+    }
+    .topHeaderAside{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        position: relative;
+    }
+    .topHeaderWhatsAppImgBody{
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        transform: translate(0, -50%);
+    }
+    .topHeaderTitleBody{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .topHeaderTitle{
+        font-size: 12px;
+    }
+    .bottomHeadernavBar{
+        display: none;
+    }
+    .bottomHeaderLogo{
+        width: 50%;
+    }
+    .bottomHeader{
+        flex-direction: column;
+    }
+    .headerBurger{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .burgerIcon{
+        display: block;
+        height: 18px;
+        width: 18px;
+    }
+    .bottomHeaderMenu{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+    }
+    .bottomHeaderMenuItem{
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    .bottomHeadernavBar{
+        width: 100%;
+    }
+    .bottomHeaderSubItemList{
+        z-index: 10;
+    }
+}

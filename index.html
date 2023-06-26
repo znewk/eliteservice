@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Service</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="topHeader">
+            <div class="topHeaderSearchBody">
+                <input type="text" placeholder="Поиск" class="topHeaderSearchInput">
+                <img src="images/search.png" alt="search" class="topHeaderSearchImg">
+            </div>
+
+            <div class="topHeaderAside">
+                <div class="topHeaderTitleBody">
+                    <img src="images/watch.png" alt="watch" class="topHeaderTitleImg">
+                    <span class="topHeaderTitle">Работаем с: ПН‑ПТ 10:00‑19:00 СБ 11:00‑18:00</span>
+                </div>
+                <div class="topHeaderTitleBody">
+                    <img src="images/phone.png" alt="phone" class="topHeaderTitleImg">
+                    <span class="topHeaderTitle">+ 7 (705) 282-16-36 / +7 (747) 028-48-18</span>
+                </div>
+                <a href="https://wa.me/+77086157439" class="topHeaderWhatsAppImgBody">
+                    <img src="images/whatsapp.png" alt="whatsapp" class="topHeaderWhatsAppImg">
+                </a>
+            </div>
+        </div>
+
+        <div class="bottomHeader">
+            <div class="headerBurger">
+                <a href="#">
+                    <img src="images/big_logo.png" alt="logo" class="bottomHeaderLogo">
+                </a>
+                <img src="images/burger.png" onclick="showHeader()" alt="burger icon" class="burgerIcon">
+            </div>
+            
+
+            <nav class="bottomHeadernavBar">
+                <ul class="bottomHeaderMenu">
+                    <li class="bottomHeaderMenuItem">
+                        <span>ремонт бытовой техники</span>
+                        <img src="images/arrow_down.png" alt="">
+                        <ul class="bottomHeaderSubItemList">
+                            <li class="bottomHeaderSubItem">ремонт бытовой техники 1.1</li>
+                            <li class="bottomHeaderSubItem">ремонт бытовой техники 1.2</li>
+                            <li class="bottomHeaderSubItem">ремонт бытовой техники 1.3</li>
+                        </ul>
+                    </li>
+                    <li class="bottomHeaderMenuItem">комплектующие</li>
+                    <li class="bottomHeaderMenuItem">о нас</li>
+                    <li class="bottomHeaderMenuItem">акции</li>
+                    <li class="bottomHeaderMenuItem">отзывы</li>
+                    <li class="bottomHeaderMenuItem">контакты</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="introBlock">
+        <div class="introBlockInfo">
+            <h2 class="introBlockTitle">Срочный ремонт</h1>
+            <h2 class="introBlockSubtitle">бытовой техники в Астане</h2>
+
+            <h1 class="introBlockText">
+                Это текст о компании. Он необходим для дальнейшего продвижения Вашего сайта. Вам будет необходимо предоставить данные.
+            </h1>
+        </div>
+        <div class="introBlockImages">
+            <img src="images/key_icon.png" alt="key_icon" class="intoBlockKeyImg">
+            <img src="images/key2_icon.png" alt="key_icon" class="intoBlockKey2Img">
+            <img src="images/settings_icon.png" alt="key_icon" class="intoBlockSettsImg">
+            <img src="images/intro_men.png" alt="men" class="introBlockMainImg">
+        </div>
+    </div>
+
+    <div class="callMasterForm">
+        <div class="callMasterFormTitleBlock">
+            <h3 class="callMasterFormTitle">Вызвать мастера</h3>
+            <span class="callMasterFormSubtitle">Сломалась техника, звоните нам!</span>
+        </div>
+        <div class="callMasterFormBody">
+            <select name="" id="" class="callMasterFormInput" required>
+                <option value="" >Какая у вас техника?</option>
+                <option value="" ></option>
+                <option value="" ></option>
+            </select>
+            
+            <select name="" id="" class="callMasterFormInput" required>
+                <option value="" >Какая поломка?</option>
+                <option value="" ></option>
+                <option value="" ></option>
+            </select>
+            <input type="text" class="callMasterFormInput callMasterFormInputMobile" placeholder="Подбробно опишите проблему" required>
+            <button class="callMasterFormBtn">ВЫЗВАТЬ МАСТЕРА</button>
+        </div>
+    </div>
+
+    <div class="ourAdvantagesBlock">
+        <div class="ourAdvantagesTop">
+            <h2 class="ourAdvantagesTitle">Наши преимущества</h2>
+            <div class="ourAdvantagesHr"></div>
+            <h3 class="ourAdvantagesSubtitle">Мы предлагаем быстрое и профессиональное обслуживание, а также гарантировуем высокое качество своих услуг.</h3>
+        </div>
+
+        <div class="ourAdvantagesBottom">
+            <div class="ourAdvantage">
+                <img src="images/advantages1.png" alt="advantage" class="ourAdvantageImg">
+
+                <h3 class="ourAdvantageTitle">гарантия</h3>
+                <span class="ourAdvantageSubtitle">Мини-описание. Это текст о компании. Он необходим для дальнейшего продвижения Вашего сайта. </span>
+            </div>
+            <div class="ourAdvantage">
+                <img src="images/advantages2.png" alt="advantage" class="ourAdvantageImg">
+
+                <h3 class="ourAdvantageTitle">качество</h3>
+                <span class="ourAdvantageSubtitle">Мини-описание. Это текст о компании. Он необходим для дальнейшего продвижения Вашего сайта. </span>
+            </div>
+            <div class="ourAdvantage">
+                <img src="images/advantages3.png" alt="advantage" class="ourAdvantageImg">
+
+                <h3 class="ourAdvantageTitle">быстро</h3>
+                <span class="ourAdvantageSubtitle">Мини-описание. Это текст о компании. Он необходим для дальнейшего продвижения Вашего сайта. </span>
+            </div>
+            <div class="ourAdvantage">
+                <img src="images/advantages4.png" alt="advantage" class="ourAdvantageImg">
+
+                <h3 class="ourAdvantageTitle">надежно</h3>
+                <span class="ourAdvantageSubtitle">Мини-описание. Это текст о компании. Он необходим для дальнейшего продвижения Вашего сайта. </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="ourServicesBlock">
+        <div class="ourAdvantagesTop">
+            <h2 class="ourAdvantagesTitle">Наши услуги</h2>
+            <div class="ourAdvantagesHr"></div>
+        </div>
+
+        <div class="ourServicesWrapper">
+            <div class="ourServicesCard">
+                <div class="ourServicesCardTop">
+                    <div class="ourServicesCardImageBlock">
+                        <img src="images/services.png" alt="services_img" class="ourServicesCardImage">
+                    </div>
+                    <button class="ourServicesCardBtn">
+                        <img src="images/services_arrow.png" alt="arrow">
+                    </button>
+                </div>
+                <div class="ourServicesCardBottom">
+                    <h3 class="ourServicesCardTitle">Ремонт холодильника и холодильного оборудования</h3>
+                    <div class="ourServicesCardHr"></div>
+                </div>
+            </div>
+            <div class="ourServicesCard">
+                <div class="ourServicesCardTop">
+                    <div class="ourServicesCardImageBlock">
+                        <img src="images/services2.png" alt="services_img" class="ourServicesCardImage">
+                    </div>
+                    <button class="ourServicesCardBtn">
+                        <img src="images/services_arrow.png" alt="arrow">
+                    </button>
+                </div>
+                <div class="ourServicesCardBottom">
+                    <h3 class="ourServicesCardTitle">Ремонт кондиционеров</h3>
+                    <div class="ourServicesCardHr"></div>
+                </div>
+            </div>
+            <div class="ourServicesCard">
+                <div class="ourServicesCardTop">
+                    <div class="ourServicesCardImageBlock">
+                        <img src="images/services3.png" alt="services_img" class="ourServicesCardImage">
+                    </div>
+                    <button class="ourServicesCardBtn">
+                        <img src="images/services_arrow.png" alt="arrow">
+                    </button>
+                </div>
+                <div class="ourServicesCardBottom">
+                    <h3 class="ourServicesCardTitle">Ремонт стиральных машин</h3>
+                    <div class="ourServicesCardHr"></div>
+                </div>
+            </div>
+            <div class="ourServicesCard">
+                <div class="ourServicesCardTop">
+                    <div class="ourServicesCardImageBlock">
+                        <img src="images/services4.png" alt="services_img" class="ourServicesCardImage">
+                    </div>
+                    <button class="ourServicesCardBtn">
+                        <img src="images/services_arrow.png" alt="arrow">
+                    </button>
+                </div>
+                <div class="ourServicesCardBottom">
+                    <h3 class="ourServicesCardTitle">Ремонт сушильных машин</h3>
+                    <div class="ourServicesCardHr"></div>
+                </div>
+            </div>
+            <div class="ourServicesCard">
+                <div class="ourServicesCardTop">
+                    <div class="ourServicesCardImageBlock">
+                        <img src="images/services5.png" alt="services_img" class="ourServicesCardImage">
+                    </div>
+                    <button class="ourServicesCardBtn">
+                        <img src="images/services_arrow.png" alt="arrow">
+                    </button>
+                </div>
+                <div class="ourServicesCardBottom">
+                    <h3 class="ourServicesCardTitle">Ремонт посудомоечных машин</h3>
+                    <div class="ourServicesCardHr"></div>
+                </div>
+            </div>
+            <div class="ourServicesCard">
+                <div class="ourServicesCardTop">
+                    <div class="ourServicesCardImageBlock">
+                        <img src="images/services6.png" alt="services_img" class="ourServicesCardImage">
+                    </div>
+                    <button class="ourServicesCardBtn">
+                        <img src="images/services_arrow.png" alt="arrow">
+                    </button>
+                </div>
+                <div class="ourServicesCardBottom">
+                    <h3 class="ourServicesCardTitle">Ремонт кофемашин</h3>
+                    <div class="ourServicesCardHr"></div>
+                </div>
+            </div>
+            <div class="ourServicesCard">
+                <div class="ourServicesCardTop">
+                    <div class="ourServicesCardImageBlock">
+                        <img src="images/services7.png" alt="services_img" class="ourServicesCardImage">
+                    </div>
+                    <button class="ourServicesCardBtn">
+                        <img src="images/services_arrow.png" alt="arrow">
+                    </button>
+                </div>
+                <div class="ourServicesCardBottom">
+                    <h3 class="ourServicesCardTitle">Ремонт варочных поверхности</h3>
+                    <div class="ourServicesCardHr"></div>
+                </div>
+            </div>
+            <div class="ourServicesCard">
+                <div class="ourServicesCardTop">
+                    <div class="ourServicesCardImageBlock">
+                        <img src="images/services8.png" alt="services_img" class="ourServicesCardImage">
+                    </div>
+                    <button class="ourServicesCardBtn">
+                        <img src="images/services_arrow.png" alt="arrow">
+                    </button>
+                </div>
+                <div class="ourServicesCardBottom">
+                    <h3 class="ourServicesCardTitle">Ремонт духовок</h3>
+                    <div class="ourServicesCardHr"></div>
+                </div>
+            </div>
+            <div class="ourServicesCard">
+                <div class="ourServicesCardTop">
+                    <div class="ourServicesCardImageBlock">
+                        <img src="images/services9.png" alt="services_img" class="ourServicesCardImage">
+                    </div>
+                    <button class="ourServicesCardBtn">
+                        <img src="images/services_arrow.png" alt="arrow">
+                    </button>
+                </div>
+                <div class="ourServicesCardBottom">
+                    <h3 class="ourServicesCardTitle">Ремонт электроплит</h3>
+                    <div class="ourServicesCardHr"></div>
+                </div>
+            </div>
+            <div class="ourServicesCard">
+                <div class="ourServicesCardTop">
+                    <div class="ourServicesCardImageBlock">
+                        <img src="images/services10.png" alt="services_img" class="ourServicesCardImage">
+                    </div>
+                    <button class="ourServicesCardBtn">
+                        <img src="images/services_arrow.png" alt="arrow">
+                    </button>
+                </div>
+                <div class="ourServicesCardBottom">
+                    <h3 class="ourServicesCardTitle">Ремонт пылесосов</h3>
+                    <div class="ourServicesCardHr"></div>
+                </div>
+            </div>
+            <div class="ourServicesCard">
+                <div class="ourServicesCardTop">
+                    <div class="ourServicesCardImageBlock">
+                        <img src="images/services11.png" alt="services_img" class="ourServicesCardImage">
+                    </div>
+                    <button class="ourServicesCardBtn">
+                        <img src="images/services_arrow.png" alt="arrow">
+                    </button>
+                </div>
+                <div class="ourServicesCardBottom">
+                    <h3 class="ourServicesCardTitle">Ремонт микроволновок</h3>
+                    <div class="ourServicesCardHr"></div>
+                </div>
+            </div>
+            <div class="ourServicesCard">
+                <div class="ourServicesCardTop">
+                    <div class="ourServicesCardImageBlock">
+                        <img src="images/services12.png" alt="services_img" class="ourServicesCardImage">
+                    </div>
+                    <button class="ourServicesCardBtn">
+                        <img src="images/services_arrow.png" alt="arrow">
+                    </button>
+                </div>
+                <div class="ourServicesCardBottom">
+                    <h3 class="ourServicesCardTitle">Ремонт электросамокатов</h3>
+                    <div class="ourServicesCardHr"></div>
+                </div>
+            </div>
+            <div class="ourServicesCard">
+                <div class="ourServicesCardTop">
+                    <div class="ourServicesCardImageBlock">
+                        <img src="images/services13.png" alt="services_img" class="ourServicesCardImage">
+                    </div>
+                    <button class="ourServicesCardBtn">
+                        <img src="images/services_arrow.png" alt="arrow">
+                    </button>
+                </div>
+                <div class="ourServicesCardBottom">
+                    <h3 class="ourServicesCardTitle">Ремонт промышленной техники</h3>
+                    <div class="ourServicesCardHr"></div>
+                </div>
+            </div>
+            <div class="ourServicesCard">
+                <div class="ourServicesCardTop">
+                    <div class="ourServicesCardImageBlock">
+                        <img src="images/services14.png" alt="services_img" class="ourServicesCardImage">
+                    </div>
+                    <button class="ourServicesCardBtn">
+                        <img src="images/services_arrow.png" alt="arrow">
+                    </button>
+                </div>
+                <div class="ourServicesCardBottom">
+                    <h3 class="ourServicesCardTitle">Ремонт водонагревателей</h3>
+                    <div class="ourServicesCardHr"></div>
+                </div>
+            </div>
+            <div class="ourServicesCard">
+                <div class="ourServicesCardTop">
+                    <div class="ourServicesCardImageBlock">
+                        <img src="images/services15.png" alt="services_img" class="ourServicesCardImage">
+                    </div>
+                    <button class="ourServicesCardBtn">
+                        <img src="images/services_arrow.png" alt="arrow">
+                    </button>
+                </div>
+                <div class="ourServicesCardBottom">
+                    <h3 class="ourServicesCardTitle">Ремонт орг техники </h3>
+                    <div class="ourServicesCardHr"></div>
+                </div>
+            </div>
+            <div class="ourServicesCard">
+                <div class="ourServicesCardTop">
+                    <div class="ourServicesCardImageBlock">
+                        <img src="images/services7.png" alt="services_img" class="ourServicesCardImage">
+                    </div>
+                    <button class="ourServicesCardBtn">
+                        <img src="images/services_arrow.png" alt="arrow">
+                    </button>
+                </div>
+                <div class="ourServicesCardBottom">
+                    <h3 class="ourServicesCardTitle">Комплектующие запасные части</h3>
+                    <div class="ourServicesCardHr"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="applicationBlock">
+        <div class="applicationForm">
+            <div class="applicationFormTitleBlock">
+                <h2 class="applicationFormTitle">Оставьте заявку <br> на ремонт</h2>
+                <h3 class="applicationFormSubtitle">Звоните или оставляйте заявку и оператор проконсультирует вас по всем услугам нашей компании!</h3>
+            </div>
+            <div class="applicationBlockInputs">
+                <input type="text" class="applicationInput" placeholder="Имя">
+                <input type="text" class="applicationInput" placeholder="Телефон">
+            </div>
+            <div class="applicationBlockBtnBody">
+                <button class="applicationBtn">ОСТАВИТЬ ЗАЯВКУ</button>
+                <img src="images/white_arrow.png" alt="arrow" class="applicationBlockArrow">
+            </div>
+            <p class="applicationBlockPostScriptum">*Примечание: диагностика оплачивается при отказе от ремонта в размере 2000 тг.</p>
+        </div>
+        <div class="applicationImages">
+            <img src="images/settings_icon.png" alt="icon" class="applicationImagesIcon1">
+            <img src="images/key2_icon.png" alt="icon" class="applicationImagesIcon2">
+            <img src="images/key_icon.png" alt="icon" class="applicationImagesIcon3">
+            <img src="images/application_men.png" alt="men" class="applicationImagesMen">
+        </div>
+    </div>
+
+    <div class="feedbacksBlock">
+        <div class="ourAdvantagesTop">
+            <h2 class="ourAdvantagesTitle">Отзывы наших клиентов</h2>
+            <div class="ourAdvantagesHr"></div>
+        </div>
+        <div class="feedbacks">
+            <div class="feedbacksArea">
+                <div class="feedback">
+                    <div class="feedbackHeader">
+                        <img src="images/feedback_img.png" class="feedbackImage" alt="icon">
+                        <div class="feedbackAuthor">
+                            <span class="feedbackAuthorName">Ахметов А.</span> <br>
+                            <span class="feedbackDate">15.05.2023</span>
+                        </div>
+                    </div>
+                    <div class="feedbackFooter">
+                        <span class="feedbackSubtitle">
+                            Хочу выразить благодарность работникам данной фирмы в выборе стиральной машины.
+                            Мастера знают свою работу, цены приемлемые по сравнению с другими фирмами. 
+                            Рекомендую данный сервис.
+                        </span>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="feedbackHeader">
+                        <img src="images/feedback_img.png" class="feedbackImage" alt="icon">
+                        <div class="feedbackAuthor">
+                            <span class="feedbackAuthorName">Ахметов А.</span> <br>
+                            <span class="feedbackDate">15.05.2023</span>
+                        </div>
+                    </div>
+                    <div class="feedbackFooter">
+                        <span class="feedbackSubtitle">
+                            Отличные специалисты, произвели ремонт моей стиральной машины в кратчайшие сроки. 
+                            Рекомендую всем, цены приемлемые по сравнению с другими мастерскими.
+                        </span>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="feedbackHeader">
+                        <img src="images/feedback_img.png" class="feedbackImage" alt="icon">
+                        <div class="feedbackAuthor">
+                            <span class="feedbackAuthorName">Ахметов А.</span> <br>
+                            <span class="feedbackDate">15.05.2023</span>
+                        </div>
+                    </div>
+                    <div class="feedbackFooter">
+                        <span class="feedbackSubtitle">
+                            Добрый день! Хочу выразить благодарность данной организации. 
+                            И отметить хорошую и качественную работу Нурбека. 
+                            Оперативно отреагировали и выполнили работу. Цены приемлимыйе.
+                             Работой доволен! Вобгем, рекомендую. Спасибо!
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="feedbacksLinkBody">
+                <img src="images/blue_arrow.png" alt="arrow" class="feedbacksLinkImg">
+                <span class="feedbacksLinkITitle">смотреть все <br> отзывы</span>
+            </a>
+        </div>
+    </div>
+    <div class="workProcessBlock">
+        <div class="ourAdvantagesTop">
+            <h2 class="ourAdvantagesTitle">Этапы ремонта и ценообразование</h2>
+            <div class="ourAdvantagesHr"></div>
+        </div>
+        <div class="workProcesses">
+            <div class="workProcessCard">
+                <img src="images/work_process1.png" alt="bg_image" class="workProcessCardImage">
+                <div class="workProcessCardText">
+                    <span class="workProcessCardNum">1</span>
+                    <span class="workProcessCardTitle">Консультация</span>
+                    <span class="workProcessCardSubtitle">Вы можете оставить заявку или позвонить самостоятельно для подробной консультации</span>
+                </div>
+            </div>
+            <div class="workProcessCard">
+                <img src="images/work_process2.png" alt="bg_image" class="workProcessCardImage">
+                <div class="workProcessCardText">
+                    <span class="workProcessCardNum">2</span>
+                    <span class="workProcessCardTitle">Консультация</span>
+                    <span class="workProcessCardSubtitle">Вы можете оставить заявку или позвонить самостоятельно для подробной консультации</span>
+                </div>
+            </div>
+            <div class="workProcessCard">
+                <img src="images/work_process3.png" alt="bg_image" class="workProcessCardImage">
+                <div class="workProcessCardText">
+                    <span class="workProcessCardNum">3</span>
+                    <span class="workProcessCardTitle">Консультация</span>
+                    <span class="workProcessCardSubtitle">Вы можете оставить заявку или позвонить самостоятельно для подробной консультации</span>
+                </div>
+            </div>
+            <div class="workProcessCard">
+                <img src="images/work_process4.png" alt="bg_image" class="workProcessCardImage">
+                <div class="workProcessCardText">
+                    <span class="workProcessCardNum">4</span>
+                    <span class="workProcessCardTitle">Консультация</span>
+                    <span class="workProcessCardSubtitle">Вы можете оставить заявку или позвонить самостоятельно для подробной консультации</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="stocksBlock">
+        <div class="ourAdvantagesTop">
+            <h2 class="ourAdvantagesTitle">Акции и предложения</h2>
+            <div class="ourAdvantagesHr"></div>
+        </div>
+
+        <div class="stocksSlider">
+            <div class="stockCard">
+                <div class="stockCardBody">
+                    <span class="stockTitle">Действует до16.06.2023</span>
+                    
+                    <div>
+                        <span class="stockValue">-10%</span> <br>
+                        <span class="stockSubtitle">Пенсионерам, инвалидам, малоимущим, многодетным </span>
+                    </div>
+                </div>
+            </div>
+            <div class="stockCard">
+                <div class="stockCardBody">
+                    <span class="stockTitle">Действует до16.06.2023</span>
+                    
+                    <div>
+                        <span class="stockValue">-10%</span>
+                        <span class="stockSubtitle">Пенсионерам, инвалидам, малоимущим, многодетным </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="whyUsBlock">
+        <div class="whyUsInfo">
+            <h2 class="ourAdvantagesTitle whyUsTitle">Чем мы лучше конкурентов?</h2>
+            <div class="ourAdvantagesHr"></div>
+            <p class="whyUsSubtitle">Это текст о компании. Он необходим для дальнейшего <br>
+                 продвижения Вашего сайта. Вам будет необходимо предоставить 
+                  исходные данные, по которым наши копирайтеры составят <br>
+                   правильный текст, который будет содержать в себе информацию. <br>
+                Это текст о компании. Он необходим для дальнейшего <br>   
+                продвижения Вашего сайта.</p>
+        </div>
+        <img src="images/whyUs.png" alt="bg_image" class="whyUsImage">
+
+        <div class="whyUsCards">
+            <div class="whyUsCard">
+                <img src="images/whyUs1.png" alt="icon" class="whyUsCardImg">
+                <span class="whyUsCardTitle">Опытные мастера</span>
+                <span class="whyUsCardSubtitle">Мини-описание. Это текст о компании. Он необходим для дальнейшего продвижения. </span>
+            </div>
+            <div class="whyUsCircle">
+                <div class="whyUsCircle2"></div>
+            </div>
+            <div class="whyUsCard">
+                <img src="images/whyUs2.png" alt="icon" class="whyUsCardImg">
+                <span class="whyUsCardTitle">оперативный выезд</span>
+                <span class="whyUsCardSubtitle">Мини-описание. Это текст о компании. Он необходим для дальнейшего продвижения. </span>
+            </div>
+            <div class="whyUsCircle">
+                <div class="whyUsCircle2"></div>
+            </div>
+            <div class="whyUsCard">
+                <img src="images/whyUs3.png" alt="icon" class="whyUsCardImg">
+                <span class="whyUsCardTitle">цены ниже рынка</span>
+                <span class="whyUsCardSubtitle">Мини-описание. Это текст о компании. Он необходим для дальнейшего продвижения. </span>
+            </div>
+        </div>
+    </div>
+    <div class="partnersBlock">
+        <div class="ourAdvantagesTop sliderTitle">
+            <h2 class="ourAdvantagesTitle">Чиним технику любых производителей</h2>
+            <div class="ourAdvantagesHr sliderTitle"></div>
+        </div>
+        <div class="slideContainer swiper" centered-slides="true">
+            <div class="slideContent">
+                <div class="cardWrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <img src="images/partner1.png" alt="partner logo">
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="images/partner2.png" alt="partner logo">
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="images/partner3.png" alt="partner logo">
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="images/partner4.png" alt="partner logo">
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="images/partner5.png" alt="partner logo">
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="images/partner1.png" alt="partner logo">
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="images/partner2.png" alt="partner logo">
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="images/partner3.png" alt="partner logo">
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="images/partner4.png" alt="partner logo">
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="images/partner5.png" alt="partner logo">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <div class="contactsBlock">
+        <div class="contacts">
+            <div>
+                <h2 class="ourAdvantagesTitle">Контакты</h2>
+                <div class="ourAdvantagesHr"></div>
+            </div>
+            
+            <div>
+                <div class="contactsItem">
+                    <div class="contactsItemTitle">
+                        <img src="images/geo_blue.png" alt="geo icon" class="contactsItemIcon">
+                        <span class="contactsItemTitle">Адрес:</span>
+                    </div>
+                    <div class="contactsItemFooter">
+                        010000, Республика Казахстан, г. <br> Астана, ул. Бекарыс 33 нп 5
+                    </div>
+                </div>
+                <div class="contactsHr"></div>
+                <div class="contactsItem">
+                    <div class="contactsItemTitle">
+                        <img src="images/phone_blue.png" alt="geo icon" class="contactsItemIcon">
+                        <span class="contactsItemTitle">Телефон:</span>
+                    </div>
+                    <div class="contactsItemFooter">
+                        <a href="tel:+77052821636" class="contactsItemLink">+ 7 (705) 282-16-36 </a> <br>
+                        <a href="tel:+7747028481" class="contactsItemLink">+7 (747) 028-48-18</a>
+                    </div>
+                </div>
+                <div class="contactsHr"></div>
+                <div class="contactsItem">
+                    <div class="contactsItemTitle">
+                        <img src="images/mail_blue.png" alt="geo icon" class="contactsItemIcon">
+                        <span class="contactsItemTitle">Email:</span>
+                    </div>
+                    <div class="contactsItemFooter">
+                        <a href="mailto:info@example-mail.kz" class="contactsItemLink">info@example-mail.kz</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ymBody">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac6933388e591c26c4d0b02d4f70592467912759b91ed18c5f45f2559c5ed9aa1&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footerFlex">
+            <div class="footerLeftSide">
+                <h2 class="footerTitle">Услуги</h2>
+                <div class="footerLeftSideWrapper">
+                    <a href="#" class="footerSubLink">Ремонт холодильника и холодильного оборудования</a>
+                    <a href="#" class="footerSubLink">Ремонт кондиционеров</a>
+                    <a href="#" class="footerSubLink">Ремонт стиральных машин</a>
+                    <a href="#" class="footerSubLink">Ремонт сушильных машин</a>
+                    <a href="#" class="footerSubLink">Ремонт посудамоечных машин</a>
+                    <a href="#" class="footerSubLink">Ремонт кофемашин</a>
+                    <a href="#" class="footerSubLink">Ремонт варочных поверхности</a>
+                    <a href="#" class="footerSubLink">Ремонт духовок</a>
+                    <a href="#" class="footerSubLink">Ремонт электролит</a>
+                    <a href="#" class="footerSubLink">Ремонт пылесосов</a>
+                    <a href="#" class="footerSubLink">Ремонт микроволновок</a>
+                    <a href="#" class="footerSubLink">Ремонт электросамокатов</a>
+                    <a href="#" class="footerSubLink">Ремонт промышленной техники</a>
+                    <a href="#" class="footerSubLink">Ремонт водонагревателей</a>
+                    <a href="#" class="footerSubLink">Ремонт орг техники</a>
+                </div>
+            </div>
+            <div class="footerRightSide">
+                <div class="footerRightSideList">
+                    <a href="#" class="footerTitle">Комплектующие запасные части</a>
+                    <a href="#" class="footerTitle">О компании</a>
+                    <a href="#" class="footerTitle">Акции</a>
+                    <a href="#" class="footerTitle">Отзывы</a>
+                </div>
+                <div>
+                    <a href="#" class="footerTitle">Контакты</a>
+                    <p href="#" class="footerSubLink footerRightSideItem">010000, Республика Казахстан, г. Астана, ул. Бекарыс 33 нп 5</p>
+                    <a href="tel:+77052821636" class="footerSubLink footerLink footerRightSideItem">+ 7 (705) 282-16-36 </a> <br>
+                    <a href="tel:+7747028481" class="footerSubLink footerLink footerRightSideItem">+7 (747) 028-48-18</a>
+                </div>
+                <div>
+                    <h2 class="footerTitle">Пишите нам:</h2>
+
+                    <div class="footerTitle">
+                        <a href="#">
+                            <img src="images/footerTg.png" alt="tg icon">
+                        </a>
+                        
+                        <a href="#">
+                            <img src="images/footerWa.png" alt="wa icon">
+                        </a>
+                    </div>
+
+                    <a href="mailto:info@example.com" class="footerSubLink">info@example.com</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footerHr"></div>
+
+        <a href="#" class="footerSubLink" style="color: #797979;">ABC DESIGN</a>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
